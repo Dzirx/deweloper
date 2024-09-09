@@ -1,0 +1,93 @@
+/* Zresetowanie stylów dla html i body */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  /* Kontener formularza */
+  .form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+    box-sizing: border-box;
+    margin: 20px auto;
+    height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  
+  /* Stylowanie formularza */
+  .apartment-form {
+    display: block;
+    margin: 0;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    flex-direction: column;
+    align-items: flex-start; /* Ustawia elementy od lewej */
+  }
+  .form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .form-group input,
+  .form-group select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: calc(100% - 40px); /* Odjęcie od szerokości, aby dać margines po obu stronach */
+    box-sizing: border-box;
+  }
+  
+  .form-group-checkbox {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column; /* Ustawia elementy w pionie */
+    gap: 10px; /* Odstęp między etykietą a grupą checkboxów */
+  }
+  
+  .checkbox-group {
+    display: flex;
+    flex-direction: column; /* Każdy checkbox zaczyna od nowej linii */
+    margin-left: 20px; /* Odstęp od etykiety */
+  }
+  
+  .checkbox-group label {
+    font-weight: 100;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Dodanie odstępu między checkboxami */
+  }
+  
+  .checkbox-group input {
+    margin-right: 8px; /* Odstęp między checkboxem a tekstem */
+  }
+  
+  .submit-btn {
+    padding: 15px 20px;
+    font-size: 16px;
+    background-color: #FF9800;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+  }
+  
+  .submit-btn:hover {
+    background-color: #2C7865;
+  }
+  
